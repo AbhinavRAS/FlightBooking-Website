@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
   "compilerOptions": {
     "typeRoots": ["./node_modules/@types", "./src/types/amadeus.d.ts"],
     "target": "ES2022",
@@ -15,4 +16,11 @@
   },
   "include": ["src/**/*"],
   "exclude": ["node_modules"]
+=======
+  "files": [],
+  "references": [
+    { "path": "./tsconfig.app.json" },
+    { "path": "./tsconfig.node.json" }
+  ]
+>>>>>>> 6976d20b6314f419074c3f92f758dd479759a4ca
 }
