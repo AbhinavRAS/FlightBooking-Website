@@ -1,0 +1,44 @@
+{
+  "name": "travelwise-backend",
+  "version": "1.0.0",
+  "description": "Backend API for TravelWise booking platform",
+  "main": "dist/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node dist/index.js",
+    "dev": "tsc && nodemon --exec \"node --loader ts-node/esm\" index.ts",
+    "build": "tsc"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongoose": "^8.0.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "bcryptjs": "^2.4.3",
+    "jsonwebtoken": "^9.0.2",
+    "express-validator": "^7.0.1",
+    "helmet": "^7.1.0",
+    "express-rate-limit": "^7.1.5",
+    "multer": "^1.4.5-lts.1",
+    "nodemailer": "^6.9.7",
+    "stripe": "^14.9.0",
+    "axios": "^1.6.2",
+    "node-cron": "^3.0.3",
+    "@types/node": "^20.9.0",
+    "@types/express": "^4.17.21",
+    "@types/cors": "^2.8.17",
+    "@types/bcryptjs": "^2.4.6",
+    "@types/jsonwebtoken": "^9.0.5",
+    "@types/multer": "^1.4.10",
+    "@types/nodemailer": "^6.4.18",
+    "@types/stripe": "^12.2.0",
+    "@types/axios": "^0.14.0",
+    "@types/node-cron": "^3.0.10",
+    "@types/express-rate-limit": "^5.0.1"
+  },
+  "devDependencies": {
+    "typescript": "^5.3.3",
+    "nodemon": "^3.0.2",
+    "ts-node": "^10.9.2"
+  }
+}
